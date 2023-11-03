@@ -14,7 +14,7 @@ const headingOptions = {
   transform: "translate(-50%,-50%)",
   textTransform: "uppercase",
   p: "4",
-  size: ["xl", "2xl", "3xl"],
+  size: ["l", "2xl", "3xl"],
 };
 const Home = () => {
   return (
@@ -68,7 +68,7 @@ function CarouselComponent() {
         showStatus={false}
       >
         <Box>
-          <Image src={img1} height={"100vh"} objectFit={"cover"} />
+          <Image src={img1} height={["80vh","100vh"]} objectFit={"cover"} />
           <Heading
             bgColor={"blackAlpha.800"}
             color={"white"}
@@ -78,7 +78,7 @@ function CarouselComponent() {
           </Heading>
         </Box>
         <Box>
-          <Image src={img2} height={"100vh"} objectFit={"cover"} />
+          <Image src={img2} height={["80vh","100vh"]} objectFit={"cover"} />
           <Heading
             bgColor={"white"}
             color={"blackAlpha.900"}
@@ -88,7 +88,7 @@ function CarouselComponent() {
           </Heading>
         </Box>
         <Box>
-          <Image src={img3} height={"100vh"} objectFit={"cover"} />
+          <Image src={img3} height={["80vh","100vh"]} objectFit={"cover"} />
           <Heading
             bgColor={"blackAlpha.800"}
             color={"white"}
@@ -98,7 +98,7 @@ function CarouselComponent() {
           </Heading>
         </Box>
         <Box>
-          <Image src={img4} height={"100vh"} objectFit={"cover"} />
+          <Image src={img4} height={["80vh","100vh"]} objectFit={"cover"} />
           <Heading
             bgColor={"white"}
             color={"blackAlpha.800"}
